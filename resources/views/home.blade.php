@@ -1,11 +1,11 @@
 @extends('layouts.default')
 
-@section('title', 'Administration')
+@section('title', 'Home')
 
 @section('breadcrumb')
     {{ Breadcrumbs::render('home') }}
 @endsection
 
 @section('content')
-    <h1>Administration</h1>
+    <h1>Home</h1>
 @endsection
